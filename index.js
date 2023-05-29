@@ -3,6 +3,7 @@ import mongoose from "mongoose";
 import cors from "cors";
 import dotenv from "dotenv";
 import axios from "axios";
+import path from "path";
 import TelegramBot from "node-telegram-bot-api";
 import { register } from "./controllers/user.js";
 import userRouter from "./router/user.js";
