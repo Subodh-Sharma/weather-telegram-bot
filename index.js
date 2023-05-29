@@ -35,7 +35,7 @@ app.use("/admin",adminRouter);
 // }
 
 //-------------------Deployment code---------------------//
-const port = process.env.PORT || 8000;
+const port = process.env.PORT;
 const url = process.env.DB_URL;
 
 mongoose.connect(url).then(()=>{
